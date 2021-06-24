@@ -18,7 +18,7 @@ export default function ContentPage(){
     let i = clicado?.array;
 
     const loadContent = async () => {
-        const res = await axios.get('http://localhost:3001/api/conteudos');
+        const res = await axios.get('https://agresteconsultoriajr.herokuapp.com/api/conteudos');
         setContent(res.data);
     };
 

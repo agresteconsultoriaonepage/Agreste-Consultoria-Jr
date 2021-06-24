@@ -33,7 +33,7 @@ export default function ServicePage(){
     const [service, setService] = useState([]);
     
     const loadService = async () => {
-        const res = await axios.get('http://localhost:3001/api/services');
+        const res = await axios.get('https://agresteconsultoriajr.herokuapp.com/api/services');
         setService(res.data);
     };
 

@@ -7,7 +7,7 @@ function PostList() {
   const [posts, setPosts] = useState([]);
 
   const loadPosts = async () => {
-    const res = await axios.get('http://localhost:3001/api/posts');
+    const res = await axios.get('https://agresteconsultoriajr.herokuapp.com/api/posts');
     setPosts(res.data);
   };
 
