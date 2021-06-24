@@ -14,7 +14,7 @@ export default function ContactPage(){
     const [contact, setContact] = useState([]);
 
     const loadContact = async () => {
-        const res = await axios.get('http://localhost:3001/api/contact');
+        const res = await axios.get('https://agresteconsultoriajr.herokuapp.com/api/contact');
         setContact(res.data);
     };
 
