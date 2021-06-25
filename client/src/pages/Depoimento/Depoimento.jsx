@@ -2,6 +2,7 @@ import React ,{ useEffect, useState }from 'react';
 import './Depoimento.css';
 import Slider from "react-slick";
 import axios from 'axios';
+import url from '../../apiURL';
 
 import { default as CardDepoiment } from "../../components/CardDepoiment";
 
@@ -11,7 +12,7 @@ export default function Depoimento(){
     const [depoiment, setDepoiment] = useState([]);
     
     const loadDepoiment = async () => {
-        const res = await axios.get('http://localhost:3001/api/depoiments');
+        const res = await axios.get(`${url.url}/api/depoiments`);
         setDepoiment(res.data);
     };
 
