@@ -5,13 +5,13 @@ import iconInsta from "./imagem/insta.png";
 import iconTell from "./imagem/telefone.png";
 import logoCiti from "./imagem/logo-citi.png";
 import logoFooter from "./imagem/logoAgreste.png";
-
+import url from '../../apiURL';
 
 function Footer() {
     const [Footer, setFooter] = useState([]);
 
     const loadFooter = async () => {
-        const res = await axios.get("http://localhost:3001/api/company");
+        const res = await axios.get(`${url.url}/api/company`);
         setFooter(res.data);
     };
 

@@ -15,14 +15,14 @@ function Banner() {
     const [sobre, setSobre] = useState([]);
 
     const loadSobre = async () => {
-        const res = await axios.get('http://localhost:3001/api/QuemSomos');
+        const res = await axios.get('https://agresteconsultoriajr.herokuapp.com/api/QuemSomos');
         setSobre(res.data);
     };
 
     const [Banner, setBanner] = useState([]);
 
     const loadBanner = async () => {
-        const res = await axios.get("http://localhost:3001/api/Banner");
+        const res = await axios.get("https://agresteconsultoriajr.herokuapp.com/api/Banner");
             setBanner(res.data);
     };
 

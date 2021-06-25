@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31231e5d.chunk.css",
+    "main.js": "/static/js/main.49f2b003.chunk.js",
+    "main.js.map": "/static/js/main.49f2b003.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a06e69b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a06e69b5.js.map",
+    "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
+    "static/js/2.2ed04f6c.chunk.js": "/static/js/2.2ed04f6c.chunk.js",
+    "static/js/2.2ed04f6c.chunk.js.map": "/static/js/2.2ed04f6c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.19627560.chunk.css.map": "/static/css/2.19627560.chunk.css.map",
+    "static/css/main.31231e5d.chunk.css.map": "/static/css/main.31231e5d.chunk.css.map",
+    "static/js/2.2ed04f6c.chunk.js.LICENSE.txt": "/static/js/2.2ed04f6c.chunk.js.LICENSE.txt",
+    "static/media/Banner.css": "/static/media/Img-back.f9435be3.png",
+    "static/media/Logo.fb366360.png": "/static/media/Logo.fb366360.png",
+    "static/media/CardDepoiment.css": "/static/media/Rectangle 79.a00d53d4.png",
+    "static/media/ContactPage.css": "/static/media/bussinessman.419fb25e.png",
+    "static/media/CardService.css": "/static/media/contentimg.a00d53d4.png",
+    "static/media/logoAgreste.89c510ca.png": "/static/media/logoAgreste.89c510ca.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a06e69b5.js",
+    "static/css/2.19627560.chunk.css",
+    "static/js/2.2ed04f6c.chunk.js",
+    "static/css/main.31231e5d.chunk.css",
+    "static/js/main.49f2b003.chunk.js"
+  ]
+}

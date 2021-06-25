@@ -5,7 +5,7 @@ import axios from 'axios';
 import Button from '../../components/Button';
 import LogoMissao from "./assets/logo-missao.png";
 import Image from "./assets/contentimg.png";
-
+import url from '../../apiURL';
 
 export default function ContentPage(){
 
@@ -18,7 +18,7 @@ export default function ContentPage(){
     let i = clicado?.array;
 
     const loadContent = async () => {
-        const res = await axios.get('http://localhost:3001/api/conteudos');
+        const res = await axios.get(`${url.url}/api/conteudos`);
         setContent(res.data);
     };
 

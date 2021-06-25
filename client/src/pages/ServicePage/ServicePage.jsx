@@ -5,6 +5,7 @@ import axios from 'axios';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import url from '../../apiURL';
 
 export default function ServicePage(){
     
@@ -33,7 +34,7 @@ export default function ServicePage(){
     const [service, setService] = useState([]);
     
     const loadService = async () => {
-        const res = await axios.get('http://localhost:3001/api/services');
+        const res = await axios.get(`${url.url}/api/services`);
         setService(res.data);
     };
 
